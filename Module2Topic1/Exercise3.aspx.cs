@@ -13,5 +13,13 @@ namespace Module1Exercise1
         {
             // TODO 3.3 Set the text value of the finalGrade label to "Submit your grade percentage to see your final grade!". Watch out for post backs
         }
+
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+            int grade = int.Parse(percentageGrade.Text);
+            Response.Write($"<script>alert('Your grade is {grade}')</script>");
+
+            finalGrade.Text = grade.ToString();
+        }
     }
 }
