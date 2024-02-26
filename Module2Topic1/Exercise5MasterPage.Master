@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Exercise5MasterPage.master.cs" Inherits="Module2Topic1.Exercise5MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Exercise 5 Master Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1>Module 2 Guided Exercise 1 - Exercises</h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="Exercise1.aspx">Exercise 1</a></li>
+            <li><a href="Exercise2.aspx">Exercise 2</a></li>
+            <li><a href="Exercise3.aspx">Exercise 3</a></li>
+            <li><a href="Exercise4.aspx">Exercise 4</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+        <br />
+        Copyright &copy; Mico Efraim D. Escosura  <%: DateTime.Now.Year %>
+    </div>
+</body>
+</html>

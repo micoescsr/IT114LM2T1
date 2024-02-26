@@ -115,9 +115,17 @@
     <Compile Include="Exercise4.aspx.designer.cs">
       <DependentUpon>Exercise4.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Exercise5MasterPage.Master.cs">
+      <DependentUpon>Exercise5MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Exercise5MasterPage.Master.designer.cs">
+      <DependentUpon>Exercise5MasterPage.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Exercise5MasterPage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

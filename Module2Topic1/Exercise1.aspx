@@ -27,7 +27,7 @@
         <%-- TODO 2.2 Create an image that is 200px by 200x big showing the album cover of your favorite song. Make sure to set the alternative text. --%>
         <%-- Hint: https://www.tutorialspoint.com/asp.net/asp.net_basic_controls.htm#:~:text=Image%20Control --%>
         <div>
-            <asp:Image ID="SongAlbum" runat="server" Width="200px" Height="200px" ImageUrl="images.jpg"/>
+            <asp:Image ID="SongAlbum" runat="server" Width="200px" Height="200px" ImageUrl="SOS-ALBUM.jpg"/>
         </div>
         <%-- TODO 2.3 Create three buttons with texts. "Prev", "Play", and "Next" --%>
         <%-- Hint: https://www.tutorialspoint.com/asp.net/asp.net_basic_controls.htm#:~:text=Button%20Controls --%>
